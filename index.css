@@ -184,13 +184,13 @@ header table {
     background-repeat:no-repeat;
 }
 #work {
-    width:92vw;
+    width:80vw;
     padding:6vh 4vw;
     font-weight:bold;
 }
 #work h1 {
     border-bottom:4px solid rgb(247, 72, 53);
-    width:16%; /*underline*/
+    width:10%; /*underline*/
     font-size:50px;
 }
 
