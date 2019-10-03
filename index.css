@@ -190,13 +190,14 @@ header table {
 }
 #work h1 {
     border-bottom:4px solid rgb(247, 72, 53);
-    width:24%; /*underline*/
-    font-size:40px;
+    width:16%; /*underline*/
+    font-size:50px;
 }
 
 #work h2 {
     width:30%; /*underline*/
     font-size:30px;
+    color: #F74835;;
 }
 
 #photos {
