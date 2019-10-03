@@ -8,6 +8,10 @@
     src: url('./Fonts/CircularStd-Medium.otf'); /*URL to font*/
 }
 
+#border {
+    color: #F74835;
+}
+
 body {
     font-family: 'myfont2', CircularStd-Medium;
     font-size: 25px;
@@ -240,7 +244,6 @@ header table {
     width:100%;
 }
 #inner_div table tr td{
-    font-weight:bold;
 }
 #inner_table tr td{
     padding:10px 20px !important;
