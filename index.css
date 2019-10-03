@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'myfont2'; /*a name to be used later*/
-    src: url('./Fonts/CircularStd-Medium.otf'); /*URL to font*/
+    src: url('./Fonts/CircularStd-Book.otf'); /*URL to font*/
 }
 
 #border {
@@ -131,6 +131,7 @@ header table {
     padding:0px 8%;
 }
 #about h1 {
+    font-family: 'myfont';
     font-size:65px;
     word-wrap:break-word;
 }
@@ -189,6 +190,7 @@ header table {
     font-weight:bold;
 }
 #work h1 {
+    font-family: 'myfont';
     border-bottom:4px solid rgb(247, 72, 53);
     width:10%; /*underline*/
     font-size:50px;
