@@ -154,10 +154,10 @@ header table {
     margin:0px 8px;
 }
 
-.social2 {
+.socialize {
     color:rgb(247, 72, 53);
     font-size:50px;
-    padding:20px 20px;
+    padding:20px 25px;
     border-radius:50%;
     background:transparent;
     transition:0.4s ease-in-out;
@@ -165,7 +165,7 @@ header table {
     margin:0px 8px;
 }
 
-.social2:hover { 
+.socialize:hover { 
     cursor: pointer;
     color:#fff;
     background:rgb(247, 72, 53);
