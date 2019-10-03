@@ -1,4 +1,10 @@
 var width = $(window).width(); 
+
+$(window).on('beforeunload', function() {   /*Forces page to load at the top */
+  $('body').hide();
+  $(window).scrollTop(0);
+});
+
 window.onscroll = function(){
 if ((width >= 1000)){
     if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
