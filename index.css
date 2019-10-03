@@ -96,7 +96,7 @@ header table {
     margin:0px auto;
 }
 #logo {
-    font-size:24px;
+    font-size:40px;
     color:rgb(247, 72, 53);
 }
 #navigation {
@@ -180,7 +180,7 @@ header table {
 #rightImage {
     width:auto;
     height:auto;
-    background:url("./Website Images/Marketer.gif") center center;
+    background:url("./Website Images/m2.gif") center center;
     background-repeat:no-repeat;
 }
 #work {
