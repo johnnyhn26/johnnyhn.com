@@ -1,4 +1,13 @@
 
+@media screen and (max-width: 1020px) {
+  #container, #header, #content, #footer {
+    float: none;
+    width: auto;
+  }
+}
+
+/* MOBILE */ 
+
 [data-title] {
   font-size: 30px; /*optional styling*/
   position: relative;
