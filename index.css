@@ -12,6 +12,13 @@
     color: #F74835;
 }
 
+p {
+  word-spacing: 70px;
+  font-family: 'myfont';
+  color: #F74835;       /*header text for icons */
+  font-weight:bold;
+}
+
 body {
     font-family: 'myfont2', CircularStd-Medium;
     font-size: 25px;
