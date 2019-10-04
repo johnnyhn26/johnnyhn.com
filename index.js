@@ -11,7 +11,7 @@ if ((width >= 1000)){
         $("#header").css("background","#fff");
         $("#header").css("color","#F74835");
         $("#header").css("box-shadow","0px 0px 20px rgba(0,0,0,0.09)");
-        $("#header").css("padding","4vh 4vw");
+        $("#header").css("padding","2vh 4vw");
         $("#navigation a").hover(function(){
             $(this).css("border-bottom","2px solid rgb(247, 72, 53)");
         },function(){
@@ -19,11 +19,11 @@ if ((width >= 1000)){
         });
     }else{
         $("#header").css("background","transparent");
-        $("#header").css("color","#000");
+        $("#header").css("color","#F74835");
         $("#header").css("box-shadow","0px 0px 0px rgba(0,0,0,0)");
         $("#header").css("padding","6vh 4vw");
         $("#navigation a").hover(function(){
-            $(this).css("border-bottom","2px solid #F74835");
+            $(this).css("border-bottom","2px solid #fff");
         },function(){
             $(this).css("border-bottom","2px solid transparent");
         });

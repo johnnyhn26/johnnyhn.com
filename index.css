@@ -141,7 +141,7 @@ header {
 header table {
     width:100%;
 }
-#logo {
+#logo table tr td  {
     width:20%;
 }
 #navigation {
