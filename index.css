@@ -11,10 +11,34 @@
   p{ font-size: 2em; }
 }
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 /* END OF MOBILE */ 
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.videocontainer{
+    width: 100% !important;
+    height: auto !important;
+}
+
+
+
+/* Fitting Youtube Videos */
 
 [data-title] {
   font-size: 30px; /*optional styling*/
