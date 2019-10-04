@@ -1,12 +1,17 @@
 
+
 @media screen and (max-width: 1020px) {
   #container, #header, #content, #footer {
     float: none;
     width: auto;
   }
+ #subtitle, #share, #slider, #sidebar{
+    display:none;
+  }
+  p{ font-size: 2em; }
 }
 
-/* MOBILE */ 
+/* END OF MOBILE */ 
 
 [data-title] {
   font-size: 30px; /*optional styling*/
