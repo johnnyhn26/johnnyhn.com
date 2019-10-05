@@ -470,6 +470,7 @@ button:focus {
     }
     #bio h1 {
         width:25%;
+        font-size: 50px; /* Some issue with about? manually inputted 50 px to match other headers */
     }
     #bio {
         font-size: 17px;
