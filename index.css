@@ -178,8 +178,9 @@ header table {
     text-align:right;
 }
 #navigation a {
-    color:inherit;
+    color: #F74835;  /*color of navigation text */
     font-size: 30px; /*hello*/
+    font-family: 'myfont';
     text-decoration:none;
     padding:5px 10px; /*underline padding*/
     border-bottom:2px solid transparent;
@@ -187,7 +188,7 @@ header table {
     transition:0.4s ease-in-out;
 }
 #navigation a:hover{
-    border-bottom:2px solid #fff;
+    border-bottom:2px solid #F74835;
 }
 #top_part {
     width:100%;
