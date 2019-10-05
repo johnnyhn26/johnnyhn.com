@@ -207,7 +207,7 @@ header table {
 }
 #about h1 {
     font-family: 'myfont';
-    font-size:65px;
+    font-size:80px; /*Imagine. Discover. Create.*/
     word-wrap:break-word;
 }
 #about table {
@@ -338,7 +338,7 @@ header table {
 #bio h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(247, 72, 53);
-    width:45%;
+    width:40%;
 }
 #contact {
     width:92vw;
@@ -347,7 +347,7 @@ header table {
 #contact h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(247, 72, 53);
-    width:45%;
+    width:40%;
 }
 #contact table {
     width:100%;
@@ -399,7 +399,7 @@ button:focus {
     background: rgba(0, 0, 0,0.8); 
 }
 
-/* Media */
+/* Mobile */
 
 @media (max-width: 1000px){
     #photos {
