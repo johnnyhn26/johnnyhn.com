@@ -23,6 +23,18 @@
     height: 0;
 }
 
+.videoWrapper iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.videocontainer{
+    width: 100% !important;
+    height: auto !important;
+}
 
 
 
