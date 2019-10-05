@@ -11,7 +11,7 @@ if ((width >= 1000)){
         $("#header").css("background","#fff");
         $("#header").css("color","#F74835");
         $("#header").css("box-shadow","0px 0px 20px rgba(0,0,0,0.09)");
-        $("#header").css("padding","2vh 4vw");
+        $("#header").css("padding","3vh 4vw"); //THIS IS THE PADDING UNDER YOUR LOGO (JOHNNY HOANG NGUYEN)
         $("#navigation a").hover(function(){
             $(this).css("border-bottom","2px solid rgb(247, 72, 53)");
         },function(){
