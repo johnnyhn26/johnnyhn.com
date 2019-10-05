@@ -13,26 +13,17 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-table, th, td {
-border: 1px solid Black;}
-
-/* make the table a 100% wide by default */
-table {
-width: 100%;}
-
-/* if the browser window is at least 800px-s wide: */
-@media screen and (min-width: 800px) {
-  table {
-  width: 90%;}
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 20px;
+  }
 }
 
-/* if the browser window is at least 1000px-s wide: */
-@media screen and (min-width: 1000px) {
-  table {
-  width: 80%;}
+@media only screen and (max-width: 320px) {
+  b {
+    font-size: 10px;
+  }
 }
-
-/* and so on... */
 
 
 /* END OF MOBILE */ 
