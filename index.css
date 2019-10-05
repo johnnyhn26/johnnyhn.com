@@ -180,6 +180,7 @@ header table {
 }
 #logo {
     font-size:40px;
+    font-family:'myfont';
     color:rgb(247, 72, 53);
     width:34%;
 }
@@ -213,13 +214,7 @@ header table {
 }
 
 /*LOGO OF MY FACE */
-#logo2 table tr td  {
-    width:0%;
-}
 
-#logo2 table tr td  {
-    width:0%;
-}
 
 #top_part2 {
     width:20%;
@@ -529,21 +524,6 @@ button:focus {
         display: none; /*hides the navigation */
     }
 
-    /*hiding logo face */
-
-    #logo2 table tr td{
-        display:none;
-    }
-
-    #top_part2 {
-        display:none;
-    }
-    #top_part2 tr td{
-        display:none;
-    }
-
-
-    /*hiding logo face end */ 
 
     .videoWrapper {     /*FEBREZE*/
     position: relative;
@@ -576,5 +556,12 @@ button:focus {
     height: 100%;
     }
 
+    /*hiding logo face */
+
+    #logo2 {
+    display:none !important;
+    }   
+
+    /*hiding logo face end */ 
    
 }
