@@ -13,32 +13,29 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+table, th, td {
+border: 1px solid Black;}
+
+/* make the table a 100% wide by default */
+table {
+width: 100%;}
+
+/* if the browser window is at least 800px-s wide: */
+@media screen and (min-width: 800px) {
+  table {
+  width: 90%;}
+}
+
+/* if the browser window is at least 1000px-s wide: */
+@media screen and (min-width: 1000px) {
+  table {
+  width: 80%;}
+}
+
+/* and so on... */
+
 
 /* END OF MOBILE */ 
-
-.videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 25px;
-    height: 0;
-}
-
-.videoWrapper iframe {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-}
-
-.videocontainer{
-    width: 100% !important;
-    height: auto !important;
-}
-
-
-
-/* Fitting Youtube Videos */
 
 [data-title] {
   font-size: 30px; /*optional styling*/
