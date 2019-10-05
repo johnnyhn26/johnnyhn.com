@@ -208,7 +208,7 @@ header table {
 }
 #about h1 {
     font-family: 'myfont';
-    font-size:80px; /*Imagine. Discover. Create.*/
+    font-size:65px; /*Imagine. Discover. Create.*/
     word-wrap:break-word;
 }
 #about table {
