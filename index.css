@@ -529,9 +529,21 @@ button:focus {
         display: none; /*hides the navigation */
     }
 
+    /*hiding logo face */
+
     #logo2 table tr td{
         display:none;
     }
+
+    #top_part2 {
+        display:none;
+    }
+    #top_part2 tr td{
+        display:none;
+    }
+
+
+    /*hiding logo face end */ 
 
     .videoWrapper {     /*FEBREZE*/
     position: relative;
