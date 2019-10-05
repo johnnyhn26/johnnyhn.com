@@ -1,14 +1,4 @@
-@media only screen and (max-width: 768px) {
-  b {
-    font-size: 20px;
-  }
-}
 
-@media only screen and (max-width: 320px) {
-  b {
-    font-size: 10px;
-  }
-}
 
 /* END OF MOBILE */ 
 
