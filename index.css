@@ -397,7 +397,7 @@ button:focus {
     background: rgba(0, 0, 0,0.8); 
 }
 
-/*
+/* Media */
 
 @media (max-width: 1000px){
     #photos {
@@ -482,7 +482,7 @@ button:focus {
         padding:15px 0px;
     }
     #navigation a {
-        color:#000;
+        display: none;
     }
 }
 */
