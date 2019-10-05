@@ -69,6 +69,10 @@ html, body {
 
 /* END OF EMAIL BUTTON */
 
+#space { 
+    padding-top: 270px; 
+}
+
 @font-face {
     font-family: 'myfont'; /*a name to be used later*/
     src: url('./Fonts/CircularStd-Medium.otf'); /*URL to font*/
@@ -179,7 +183,7 @@ header table {
 }
 #navigation a {
     color: #F74835;  /*color of navigation text */
-    font-size: 30px; /*hello*/
+    font-size: 30px;
     font-family: 'myfont';
     text-decoration:none;
     padding:5px 10px; /*underline padding*/
@@ -283,7 +287,7 @@ header table {
     width:35%;
     border-radius:80px;
     font-weight:bold;
-    margin:2vh 0px;
+    margin:4vh 0px;
     transition:0.4s ease-in-out;
 }
 .btn_one:hover {
@@ -319,7 +323,7 @@ header table {
 #photos {
     width:100%;
     columns:3;
-    column-gap:4%;
+    column-gap:3%;
     z-index:1;
     transition:0.4s ease-in-out;
 }
@@ -335,7 +339,7 @@ header table {
 }
 #bio {
     width:92vw;
-    padding:6vh 4vw;
+    padding:9vh 4vw;
 }
 #bio h1 {
     padding:5px 0px;
@@ -344,7 +348,7 @@ header table {
 }
 #contact {
     width:92vw;
-    padding:6vh 4vw;
+    padding:1vh 4vw;
 }
 #contact h1 {
     padding:5px 0px;
@@ -474,6 +478,7 @@ button:focus {
     }
     #bio {
         font-size: 17px;
+
     }
     #contact h1 {
         width:33%;
@@ -524,4 +529,6 @@ button:focus {
     width: 100%;
     height: 100%;
     }
+
+   
 }
