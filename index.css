@@ -68,7 +68,6 @@ html, body {
 }
 
 /* END OF EMAIL BUTTON */
-
 #space { 
     padding-top: 270px; 
 }
@@ -139,8 +138,14 @@ header table {
     width:100%;
 }
 #logo table tr td  {
-    width:20%;
+    width:10%;
 }
+
+#logo table tr td  {
+    width:5%;
+}
+
+
 #navigation {
     width:80%;
 }
@@ -176,8 +181,13 @@ header table {
 #logo {
     font-size:40px;
     color:rgb(247, 72, 53);
-    width:50%;
+    width:34%;
 }
+
+#logo2 {
+    width:7%;
+}
+
 #navigation {
     text-align:right;
 }
@@ -201,6 +211,26 @@ header table {
 #top_part tr td{
     width:50%;
 }
+
+/*LOGO OF MY FACE */
+#logo2 table tr td  {
+    width:0%;
+}
+
+#logo2 table tr td  {
+    width:0%;
+}
+
+#top_part2 {
+    width:20%;
+    border:0vh solid #fff;
+}
+#top_part2 tr td{
+    width:0%;
+}
+
+/*END OF LOGO OF MY FACE */
+
 #about {
     width:100% !important;
     height:100vh; /*spacing of the gif */
