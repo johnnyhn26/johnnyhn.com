@@ -529,7 +529,7 @@ button:focus {
         display: none; /*hides the navigation */
     }
 
-    #logo2{
+    #logo2 table tr td{
         display:none;
     }
 
