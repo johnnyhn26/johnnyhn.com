@@ -304,12 +304,12 @@ header table {
 #work h1 {
     font-family: 'myfont';
     border-bottom:4px solid rgb(247, 72, 53);
-    width:10%; /*underline*/
+    width:45%; /*underline*/
     font-size:50px;
 }
 
 #work h2 {
-    width:30%; /*underline*/
+    width:45%; /*underline*/
     font-size:30px;
     color: #F74835;;
 }
@@ -338,7 +338,7 @@ header table {
 #bio h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(247, 72, 53);
-    width:8%;
+    width:45%;
 }
 #contact {
     width:92vw;
@@ -347,7 +347,7 @@ header table {
 #contact h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(247, 72, 53);
-    width:10%;
+    width:45%;
 }
 #contact table {
     width:100%;
