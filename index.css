@@ -1,4 +1,5 @@
-
+@media only screen and (max-width: 990px) {
+#header { display: none !important; }}
 
 
 /* END OF MOBILE */ 
@@ -130,10 +131,6 @@ header {
     transition:0.4s ease-in-out;
     z-index:2;
 }
-
- @media only screen and (max-width: 768px) {
-     display: none;
- }
 
 header table {
     width:100%;
