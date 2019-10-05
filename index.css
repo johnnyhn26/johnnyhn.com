@@ -526,7 +526,11 @@ button:focus {
         padding:15px 0px;
     }
     #navigation a {
-        display: none;
+        display: none; /*hides the navigation */
+    }
+
+    #logo2{
+        display:none;
     }
 
     .videoWrapper {     /*FEBREZE*/
