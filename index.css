@@ -213,19 +213,6 @@ header table {
     width:50%;
 }
 
-/*LOGO OF MY FACE */
-
-
-#top_part2 {
-    width:0%;
-    border:0vh solid #fff;
-}
-#top_part2 tr td{
-    width:0%;
-}
-
-/*END OF LOGO OF MY FACE */
-
 #about {
     width:100% !important;
     height:100vh; /*spacing of the gif */
