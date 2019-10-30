@@ -539,7 +539,7 @@ button:focus {
     .videoWrapper iframe {
     position: absolute;
     top: 0%;
-    left: 7.5%;
+    left: 0%;
     width: 100%;
     height: 100%;
     }
@@ -555,7 +555,7 @@ button:focus {
     position: absolute;
     padding-top: 25px; /* PADDING BETWEEN FIRST AND SECOND VIDEO */
     top: 0;
-    left: 7.5%;
+    left: 0%;
     width: 100%;
     height: 100%;
     }
