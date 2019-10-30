@@ -333,12 +333,13 @@ header table {
 }
 
 #photos {
-    width:100%;
+    width:113%;
     columns:3;
     column-gap:3%;
     z-index:1;
     transition:0.4s ease-in-out;
 }
+
 #photos img {
     width:100%;
     height:auto;
@@ -349,6 +350,7 @@ header table {
     transform: scale(1.1);
     cursor: pointer;
 }
+
 #bio {
     width:92vw;
     padding:9vh 4vw;
@@ -489,7 +491,7 @@ button:focus {
         font-size: 50px; /* Some issue with about? manually inputted 50 px to match other headers */
     }
     #bio {
-        font-size: 17px;
+        font-size: 20px;
 
     }
     #contact h1 {
@@ -511,6 +513,21 @@ button:focus {
         display: none; /*hides the navigation */
     }
 
+   .videoWrapper3 {     /*JABUKA*/
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    }
+
+    .videoWrapper3 iframe {
+    position: absolute;
+    top: 6%;
+    left: 0%;
+    bottom: 5%;
+    width: 100%;
+    height: 100%;
+    }
 
     .videoWrapper {     /*FEBREZE*/
     position: relative;
@@ -521,8 +538,8 @@ button:focus {
 
     .videoWrapper iframe {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0%;
+    left: 8%;
     width: 100%;
     height: 100%;
     }
@@ -538,7 +555,7 @@ button:focus {
     position: absolute;
     padding-top: 35px; /* PADDING BETWEEN FIRST AND SECOND VIDEO */
     top: 0;
-    left: 0;
+    left: 8%;
     width: 100%;
     height: 100%;
     }
@@ -550,5 +567,4 @@ button:focus {
     }   
 
     /*hiding logo face end */ 
-   
 }
