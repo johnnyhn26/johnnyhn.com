@@ -553,7 +553,7 @@ button:focus {
 
     .videoWrapper2 iframe {
     position: absolute;
-    padding-top: 35px; /* PADDING BETWEEN FIRST AND SECOND VIDEO */
+    padding-top: 25px; /* PADDING BETWEEN FIRST AND SECOND VIDEO */
     top: 0;
     left: 7.5%;
     width: 100%;
