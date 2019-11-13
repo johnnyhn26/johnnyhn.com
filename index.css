@@ -351,6 +351,52 @@ header table {
     cursor: pointer;
 }
 
+/*GLIMPSE GIFS */
+
+#container{
+    column-gap:50%;
+    z-index:1;
+    transition:0.4s ease-in-out;
+}
+
+#container img {
+    margin-right: 2%;
+    margin-bottom: 2%;
+    transition:0.4s ease-in-out;
+    height: 388px;
+    width: 300px;
+}
+
+#container img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/*END OF GLIMPSE GIFS*/
+
+/*GLIMPSE DESIGN LAYOUT */
+
+#container2{
+    column-gap:50%;
+    z-index:1;
+    transition:0.4s ease-in-out;
+}
+
+#container2 img {
+    margin-right: 2%;
+    margin-bottom: 2%;
+    transition:0.4s ease-in-out;
+    height: 543px;
+    width: 640px;
+}
+
+#container2 img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/*END OF  DESIGN LAYOUT*/
+
 #bio {
     width:92vw;
     padding:9vh 4vw;
@@ -433,6 +479,22 @@ button:focus {
         transform: scale(1);
         cursor: pointer;
     }
+
+    #container img {
+        margin-right: 0.40%;
+        margin-bottom: 0.4%;
+        height: 388px;
+        width: 300px;
+    }
+
+    #container2 img {
+        margin-right: 0.40%;
+        margin-bottom: 0.4%;
+        height: 526px;
+        width: 620px;
+    }
+
+
     #rightImage {
         display:none;
     }
