@@ -477,31 +477,20 @@ button:focus {
 
 /* Mobile */
 
-@media (max-width: 1000px){
-
-#container{
-    column-gap:50%;
-    z-index:1;
-    transition:0.4s ease-in-out;
-}
-
-    #container img {
-       
+@media{
+ #container img {
         width: 165px;
         height: 213px;
     }
 
-   #container2{
-    column-gap:50%;
-    z-index:1;
-    transition:0.4s ease-in-out;
-}
-
-    #container2 img {
-       
+    #container2 img { 
         width: 350px;
         height: 298px;
     }
+
+}
+
+@media (max-width: 1000px){
 
     #photos {
     columns:2;
