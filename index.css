@@ -478,6 +478,7 @@ button:focus {
 /* Mobile */
 
 @media (max-width: 1000px){
+
     #photos {
     columns:2;
     column-gap: 5%;
@@ -490,19 +491,7 @@ button:focus {
         cursor: pointer;
     }
 
-    #container img {
-        margin-right: 0.40%;
-        margin-bottom: 0.4%;
-        width: 165px;
-        height: 213px;
-    }
-
-    #container2 img {
-        margin-right: 0.40%;
-        margin-bottom: 0.4%;
-        width: 350px;
-        height: 298px;
-    }
+    
 
 
     #rightImage {
