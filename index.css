@@ -478,6 +478,11 @@ button:focus {
 /* Mobile */
 
 @media{
+
+}
+
+@media (max-width: 1000px){
+
  #container img {
         width: 165px;
         height: 213px;
@@ -487,10 +492,6 @@ button:focus {
         width: 350px;
         height: 298px;
     }
-
-}
-
-@media (max-width: 1000px){
 
     #photos {
     columns:2;
