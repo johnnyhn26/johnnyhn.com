@@ -481,22 +481,22 @@ button:focus {
 
 @media (max-width: 1000px){
     #container{
-        position:relative; /*Position TAP and Jabuka to the center */
+        width: 180px;
+        height: 233px;
+        position:relative; /*Glimpse*/
         top:50%; 
         left:8%;
     }
     #container2{
-        position:relative; /*Position TAP and Jabuka to the center */
+        width: 319px;
+        height: 192px;
+        position:relative; /*Glimpse Design Layout*/
         top:50%; 
         left:4.5%;
     }
     #work h1{
-        font-size: 43px;
+        font-size: 20px;
         width: 60%;
-        
-        position:relative;
-        top:50%; 
-        left:27%;
     }
     #photos {
     columns:2;
