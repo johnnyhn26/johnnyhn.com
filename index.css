@@ -490,10 +490,13 @@ button:focus {
         top:50%; 
         left:4.5%;
     }
-
     #work h1{
         font-size: 43px;
-        width: 70%;
+        width: 60%;
+        
+        position:relative;
+        top:50%; 
+        left:27%;
     }
     #photos {
     columns:2;
