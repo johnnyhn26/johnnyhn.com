@@ -398,7 +398,7 @@ header table {
     margin-right: 2%;
     margin-bottom: 2%;
     transition:0.4s ease-in-out;
-    height: 543px;
+    height: 533px;
     width: 640px;
 }
 
@@ -488,7 +488,14 @@ button:focus {
     #container2{
         position:relative; /*Glimpse Design Layout*/
         top:50%; 
-        left:4.5%;
+        left:6%;
+    }
+    #container2 img {
+    margin-right: 2%;
+    margin-bottom: 2%;
+    transition:0.4s ease-in-out;
+    width: 300px;
+    height: 256px;
     }
     #work h1{
         font-size: 28px;
