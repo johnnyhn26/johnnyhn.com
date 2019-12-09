@@ -481,21 +481,17 @@ button:focus {
 
 @media (max-width: 1000px){
     #container{
-        width: 180px;
-        height: 233px;
         position:relative; /*Glimpse*/
         top:50%; 
         left:8%;
     }
     #container2{
-        width: 319px;
-        height: 192px;
         position:relative; /*Glimpse Design Layout*/
         top:50%; 
         left:4.5%;
     }
     #work h1{
-        font-size: 20px;
+        font-size: 28px;
         width: 60%;
     }
     #photos {
@@ -535,8 +531,8 @@ button:focus {
     }
     .btn_one {
     padding:6px 30px;
-    font-size: 25px; /* Subtitles for Companies */
-    width:60%; /* Test 1 to size 30 */
+    font-size: 18px; /* Subtitles for Companies */
+    width:70%; /* Test 1 to size 30 */
     margin:4vh 0;
     box-shadow:0px 10px 20px rgba(247, 72, 53, 0.8);
     background:rgb(247, 72, 53);
@@ -544,7 +540,7 @@ button:focus {
 
     position:relative; /*Position TAP and Jabuka to the center */
     top:50%; 
-    left:27%;
+    left:23%;
 
     }
     .btn_one:hover {
