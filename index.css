@@ -483,12 +483,12 @@ button:focus {
     #container{
         position:relative; /*Glimpse*/
         top:50%; 
-        left:8%;
+        left:9%;
     }
     #container2{
         position:relative; /*Glimpse Design Layout*/
         top:50%; 
-        left:6%;
+        left:5%;
     }
     #container2 img {
     margin-right: 2%;
